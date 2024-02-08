@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>landing page</title>
+</head>
+
+<body>
+    <!-- Section 1 -->
+    <section class="section1">
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="images/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just a Drink<br> It's <span>7up</span></h2>
+                <p>Sip into the classic refreshment of 7UP! The perfect blend of
+                    lemon and lime flavors delivers a crisp and effervescent experience in every gulp.
+                    Whether at home or on the go. Refresh with 7UP and elevate your moments with its timeless taste.
+                </p>
+                <button class="button">Buy Now</button>
+            </div>
+            <div class="imgBox">
+                <img src="images/img1.png" class="drink" alt="">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/img1.png" onclick="imgSlider('images/img1.png');changeBackgroundcolor('#F8CA2C')"></li>
+            <li><img src="images/img2.png" onclick="imgSlider('images/img2.png');changeBackgroundcolor('#B2B5B7')"></li>
+            <li><img src="images/img3.png" onclick="imgSlider('images/img3.png');changeBackgroundcolor('#9BC556')"></li>
+        </ul>
+        <ul class="media">
+            <li a href="#"><img src=images/facebook.png></li>
+            <li a href="#"><img src=images/instagram.png></li>
+            <li a href="#"><img src=images/twitter.png></li>
+        </ul>
+        <script src="script.js"></script>
+    </section>
+
+    <!-- Section 2 -->
+
+    <section class="section2">
+        <h1>Why Choose our drinks</h1>
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="card">
+                    <img src="images/img1.png" class="orange">
+                    <div class="card-body">
+                        <h5 class="card-title">Dive into Delight</h5>
+                        <p class="card-text">Discover Our Favorite 7UP Flavor! <br>Explore the Crisp and Refreshing
+                            Essence That Redefines Taste.</p>
+                        <button class="btn-custom">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="card">
+                    <img src="images/img2.png" class="orange">
+                    <div class="card-body">
+                        <h5 class="card-title">7up Bliss</h5>
+                        <p class="card-text">Refreshing Freedom with Zero Sugar <br>Indulge in the Crisp and Pure Taste,
+                            Free from Added Sugars!</p>
+                        <button class="btn-custom">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                                        <!-- Section 3 -->
+
+    <section class="section3">
+        <div class="first">
+            <h4>You may also likes</h4>
+            <a class="more">Shop more</a>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="image">
+                        <img src="images/img1.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                        <h5 class="card-title">Ananas tropical</h5>
+                        <p class="card-price">5$</p>
+                        <button class="btn btn-warning">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="image2">
+                        <img src="images/img2.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                        <h5 class="card-title">Ananas tropical</h5>
+                        <p class="card-price">5$</p>
+                        <button class="btn btn-custom">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="image3">
+                        <img src="images/img3.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                        <h5 class="card-title">Ananas tropical</h5>
+                        <p class="card-price">5$</p>
+                        <button class="btn btn-third">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                                     <!-- Footer -->
+
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <section style="background-color:#F8CA2C; margin-top: 25px;"class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom">
+    </section>
+    <section style="background-color:#fff" class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+                Savor the joy of 7UP with a variety of sugar-free flavors. Each sip offers a refreshing burst of taste without the added sugars. 
+                Explore the diverse range of options, from classic original to exciting new flavors. 
+                
+            </p>
+          </div>
+  
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">home</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">about</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">contact us</a>
+            </p>
+          </div>
+         
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+        
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              7up@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 264 564 84</p>
+            <p><i class="fas fa-print me-3"></i> + 01 264 564 85</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Copyright -->
+    <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="https://7up.com/">7up.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</body>
+</html>
